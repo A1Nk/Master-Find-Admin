@@ -7,6 +7,8 @@ $ git clone https://github.com/A1Nk/Master-Find-Admin.git
 
 $ cd Master-Find-Admin
 
+$ chmod +x find_admin.py
+
 $./find_admin.py
 
 Enjoy !!
