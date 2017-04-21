@@ -115,9 +115,9 @@ try:
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Memungkinkan halaman Admin (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Kemungkinan Panel Admin (302 - Redirect)")
             else:
-                print "%s %s %s" % (host, " Merespon:", response.status)
+                print "%s %s %s" % (host, " Kemungkinan Merespon:", response.status)
             connection.close()
         print(ColorsEnum.CYAN + "\n\nCompleted \n")
         print var1, " Menemukan Panel Admin"
@@ -142,9 +142,9 @@ try:
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Memungkinkan halaman Admin (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Kemungkinan Panel Admin (302 - Redirect)")
             else:
-                print "%s %s %s" % (host, " Merespon:", response.status)
+                print "%s %s %s" % (host, " Kemungkinan Merespon:", response.status)
             connection.close()
         print(ColorsEnum.CYAN + "\n\nCompleted \n")
         print var1, " Menemukan Panel Admin"
@@ -165,13 +165,13 @@ try:
             if response.status == 200:
                 var1 = var1 + 1
                 print "%s %s" % ( "\n\n>>>" + host, "Selamat, Admin Panel Ketemu!")
-                raw_input("Press enter to continue scanning.\n")
+                raw_input("Tekan enter untuk melanjutkan scan.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Memungkinkan halaman Admin (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Kemungkinan Panel Admin (302 - Redirect)")
             else:
-                print "%s %s %s" % (host, " Merespon:", response.status)
+                print "%s %s %s" % (host, " Kemungkinan Merespon:", response.status)
             connection.close()
         print(ColorsEnum.CYAN + "\n\nCompleted \n")
         print var1, " Menemukan Panel Admin"
@@ -196,9 +196,9 @@ try:
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Memungkinkan halaman Admin (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Kemungkinan Panel Admin (302 - Redirect)")
             else:
-                print "%s %s %s" % (host, " Merespon:", response.status)
+                print "%s %s %s" % (host, " Kemungkinan Merespon:", response.status)
             connection.close()
         print(ColorsEnum.CYAN + "\n\nCompleted \n")
         print var1, " Menemukan Panel Admin"
@@ -225,7 +225,7 @@ try:
             elif response.status == 302:
                 print "%s %s" % ("\n>>>" + host, "Memungkinkan halaman Admin (302 - Redirect)")
             else:
-                print "%s %s %s" % (host, " Merespon:", response.status)
+                print "%s %s %s" % (host, " Kemungkinan Merespon:", response.status)
             connection.close()
         print(ColorsEnum.CYAN + "\n\nCompleted \n")
         print var1, " Menemukan Panel Admin"
@@ -233,7 +233,7 @@ try:
         raw_input(ColorsEnum.RED +"[!] SELESAI, Tekan Enter untuk Keluar")
         
 except (httplib.HTTPResponse, socket.error):
-    print "\n\t[!] Session Cancelled; Error occured. Check internet settings"
+    print "\n\t[!] Sesi Dibatalkan; Kesalahan Terjadi. Periksa Koneksi Internet"
 except (KeyboardInterrupt, SystemExit):
     print "\n\t [!] Sesi Dibatalkan"
 
